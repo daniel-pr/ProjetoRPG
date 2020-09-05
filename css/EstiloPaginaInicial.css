@@ -11,7 +11,8 @@ body{
     background: #1e1e1e;
 }
 .container{
-    width: 1000px;
+    margin-left: 50px;
+    width: 400px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -30,7 +31,6 @@ body{
     transition: 0.5s;
 }
 .container .card .face.face1{
-    background: #333;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +38,8 @@ body{
     transform-origin: bottom;
 }
 .container .card .face.face1 img{
+    align-items: center;
+    border: 1px solid red;
     max-width: 100px;
 }
 .container .card .face.face1 h3{
@@ -62,15 +64,16 @@ body{
     transform: translateY(0) rotateX(0deg);
 }
 .a{
-    border: 1px solid red;
     margin-top: 100px;
     display: flex;
 }
 .b{
-    border: 1px solid red;
     margin-top: 50px;
     display: flex;
 }
 #position{
     position: absolute;
+}
+#y{
+    margin-right: 100px;
 }
